@@ -1,0 +1,26 @@
+Open Security Summit
+Software Security and Threat Modelling - Brook Schoenfield
+
+Link(s)
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGZXWW12ZTRENjdPd3RFVzRRXzVLN0I2elViZ3xBQ3Jtc0tsUlczUld4QnQ3d05FZEhZbDhEdjk3cmdnY1V5YmZFOTQzcE9kRTEzYl9fQTJpeUJtUGVLNlU4bm5TMWRBdTUwZjBnOXlqTTRlbEg1VWY3MGcwODRaUERHZTNZNmxEYWtHOVQtZUtOZ1dudnQtUGxRNA&q=https%3A%2F%2Fopen-security-summit.org%2Fsessions%2F2022%2Fjan%2Fthreat-modeling%2Fsoftware-security-and-threat-modeling%2F
+https://www.youtube.com/watch?v=nC1DkiwiT6U
+https://www.threatmodelingmanifesto.org/
+
+PROBLEMS WITH THREAT MODELLING - What makes threat model incomplete?
+Constrain to functionality - Only looking at the function used and not looking at all functions offered.
+Focusing on technical trickery - Looking heavily from a technical lens and liimiting to the technical scope.
+Focusing on todays issue (not past or future).
+Poor risk rating - using CVSS for risk rating.
+Limited knowledge of attacks - Not using Mitre Att&ck / D3fend type frameworks.
+Known Attacks / Known defences approach - Sticking to known security controls.
+
+THREAT MODEL TYPES - 
+Assessing attack surfaces and patching them for threats. (Problem - Unknown attack surface are missed)
+Looking at risks and fixing them. (Problem - Stress on risk assessment, may yield more / less work due to improper assessment).
+Deviation from security architecture and best practice. (Works well but best practice are generic not specific).
+Other approach 
+- TM for credible attack scenario.
+- TM for threat use cases outside risk appetite.
+- TM should last the lifetime of the system (at least until the next review).
+- TM to align to Pareto principle (80/20 rule).
+- Alingn TM to Mitre ATT&CK / D3Fend.
